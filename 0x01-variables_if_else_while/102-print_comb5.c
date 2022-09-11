@@ -3,9 +3,9 @@
 /**
  * main - print pairs of double digit combinations
  *
- * Description: in ascending order
+ * Description: In ascending order
  *
- * Returns: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -23,7 +23,7 @@ int main(void)
 			while (k < 58)
 			{
 				while (m < 58)
-				{ 
+				{
 					putchar(i);
 					putchar(j);
 					putchar(32);
@@ -44,6 +44,6 @@ int main(void)
 		i++;
 	}
 	putchar(10);
+
 	return (0);
 }
-	
