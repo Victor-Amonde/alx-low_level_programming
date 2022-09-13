@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * main - prints _putchar
+ * main - prints "_putchar" followed by newline
  *
- * Description: prints _putchar
- *main data type returns for each
+ * Description: prints "_putchar"
+ *
  * Returns: 0 (Success)
  */
 
