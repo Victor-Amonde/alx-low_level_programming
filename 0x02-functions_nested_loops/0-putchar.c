@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- * main - prints "_putchar" followed by newline
+ * main - prints _putchar
  *
- * Description: prints "_putchar"
+ * Description: prints _putchar
  *
- * Returns: 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	char text[12] = "_putchar";
+	char text[10] = "_putchar";
 	int i = 0;
 
 	for (i = 0; i < 8; i++)
