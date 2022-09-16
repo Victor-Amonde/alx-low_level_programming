@@ -1,25 +1,27 @@
 #include "main.h"
 
 /**
- * print_squre - draws a square using multiple terminal lines and #'s
- * @size: size of square
- * if size is 0 or less the function should print newline
- * Return: Nothing
+ * print_square - prints a square, followed by a new line;
+ * @size: size of the square
  */
 
 void print_square(int size)
 {
-	int i, j;
-
-	if (size > 0)
+	if (size <= 0)
 	{
+		_putchar('\n');
+	}
+	else
+	{
+		int i, j;
+
 		for (i = 0; i < size; i++)
 		{
 			for (j = 0; j < size; j++)
+			{
 				_putchar('#');
+			}
 			_putchar('\n');
 		}
 	}
-	else
-		_putchar('\n');
 }
