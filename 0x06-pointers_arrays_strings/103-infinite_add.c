@@ -28,17 +28,18 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		tens = num / 10;
 	}
 
-	for (; *n1; n1--; size_r++)
+	for (; *n1; n1--, size_r++)
 	{
 		num = *(n1 - '0') + tens;
 		*(r + size_r) = (num % 10) + '0';
 		tens = num / 10;
 	}
 
-	for (; *n2; n2--;  size_r--)
+	for (; *n2; n2--,  size_r--)
 	{
 		num = (*n2 - '0') + tens;
 		*(r + size_r) = (num % 10) + '0';
 		tens = num / 10;
 	}
+	return (0);
 }
