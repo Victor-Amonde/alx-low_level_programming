@@ -4,5 +4,6 @@
 #include<stdio.h>
 
 int _putchar(char c);
+char *_memcpy(char *dest, char *src, unsigned int n);
 
 #endif /*MAIN_H*/
