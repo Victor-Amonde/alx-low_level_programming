@@ -16,5 +16,9 @@ int is_prime_number(int n);
 int check_pal(char *s, int i, int len);
 int _strlen_recursion(char *s);
 int is_palindrome(char *s);
+int bandersnatch(char *s1, char *s2);
+char *move(char *s2);
+int wildcmp(char *s1, char *s2);
+
 
 #endif /* MAIN_H */
