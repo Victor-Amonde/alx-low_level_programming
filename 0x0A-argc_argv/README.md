@@ -1,0 +1,1 @@
+argc, argv, argc (ARGument Count) is int and stores number of command-line arguments passed by the user including the name of the program.The second parameter, argv (argument vector), is an array of pointers to arrays of character objects.
