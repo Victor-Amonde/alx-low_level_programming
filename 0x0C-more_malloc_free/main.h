@@ -10,9 +10,12 @@ char *string_nconcat(char *s1, char *s2, unsigned int n);
 void *_calloc(unsigned int nmemb, unsigned int size);
 int *array_range(int min, int max);
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
-int is_digit(char *s);
 int _strlen(char *s);
-void errors(void);
+char *xarray(int size);
+char *_zero_iteration(char *s);
+int convert_to_digit(char s);
+void _product(char *prod, char *mul, int digit, int zeroes);
+void nums_add(char *final_prod, char *next_prod, int next_len);
 int main(int argc, char *argv[]);
 
 #endif /* MAIN_H */
